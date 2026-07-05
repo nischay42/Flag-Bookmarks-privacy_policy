@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="icon.png" />
+<title>Privacy Policy — Flag Bookmarks</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+    background: #fdfdfd;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 56px 24px 80px; }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+  header img { width: 28px; height: 32px; object-fit: contain; }
+  h1 { font-size: 26px; font-weight: 800; letter-spacing: -0.3px; }
+  .updated { color: #888; font-size: 13px; margin-bottom: 36px; }
+  h2 {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 32px 0 10px;
+    color: #1a1a1a;
+  }
+  p, li { font-size: 14.5px; color: #333; margin-bottom: 10px; }
+  ul { padding-left: 22px; margin-bottom: 14px; }
+  .pill {
+    display: inline-block;
+    background: linear-gradient(135deg, #FFA500, #FFD700);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 11px;
+    border-radius: 20px;
+    margin-bottom: 28px;
+  }
+  .box {
+    background: #fff8e7;
+    border: 1px solid #ffe6a8;
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin: 18px 0;
+    font-size: 14px;
+  }
+  .box strong { color: #b96f00; }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 13px;
+    color: #999;
+  }
+  a { color: #d98c00; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="icon.png" alt="">
+    <h1>Flag Bookmarks — Privacy Policy</h1>
+  </header>
+  <div class="updated">Last updated: June 29, 2026</div>
+
+  <span class="pill">TL;DR — Nothing leaves your browser</span>
+
+  <p>Flag Bookmarks ("the Extension") is a Chrome extension that lets users place visual flag markers on webpages to bookmark specific scroll positions. This policy explains what data the Extension handles and how.</p>
+
+  <h2>What data we collect</h2>
+  <p>The Extension stores the following information, and only this information, when you create a flag:</p>
+  <ul>
+    <li>The URL of the webpage you flagged</li>
+    <li>The X/Y position of the flag on that page</li>
+    <li>The scroll position of the page at the time the flag was placed or moved</li>
+    <li>The title you give the flag (or the website's domain name, if you don't set one)</li>
+    <li>The date and time the flag was created</li>
+  </ul>
+
+  <div class="box">
+    <strong>We do not collect:</strong> your name, email, browsing history beyond pages you explicitly flag, analytics, cookies, IP addresses, or any personally identifiable information.
+  </div>
+
+  <h2>Where your data is stored</h2>
+  <p>All flag data is stored locally on your device using Chrome's built-in <code>chrome.storage.local</code> API. It is not transmitted to any external server, third party, or analytics provider. We do not operate a backend server of any kind for this Extension.</p>
+
+  <h2>How your data is used</h2>
+  <p>Flag data is used solely to render flag markers on webpages and to power the Dashboard view, where you can see, search, edit, and delete your saved flags. It exists only to provide the Extension's core functionality to you.</p>
+
+  <h2>Data sharing</h2>
+  <p>We do not sell, rent, trade, or share your data with any third party, advertiser, or analytics service, because no such transfer mechanism exists in the Extension.</p>
+
+  <h2>Permissions explained</h2>
+  <ul>
+    <li><strong>storage</strong> — to save your flags locally on your device</li>
+    <li><strong>tabs / activeTab</strong> — to detect the current page's URL and navigate you to a flagged page from the Dashboard</li>
+    <li><strong>scripting</strong> — to inject the flag-placement script into the active page when you choose to place a flag</li>
+    <li><strong>host permissions (all sites)</strong> — required so you can place a flag on any website you visit, since the Extension's entire purpose is universal page bookmarking</li>
+  </ul>
+
+  <h2>Data deletion</h2>
+  <p>You can delete individual flags, all flags from a specific site, or all flags entirely at any time from the Dashboard. Uninstalling the Extension also removes all locally stored flag data from your browser.</p>
+
+  <h2>Children's privacy</h2>
+  <p>The Extension does not knowingly collect data from anyone, including children, since no data ever leaves the user's own device.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the "Last updated" date above will be revised. Continued use of the Extension after changes constitutes acceptance of the updated policy.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy can be sent to: <a href="mailto:flagbookmarks@gmail.com
+">YOUR_EMAIL@example.com</a></p>
+
+  <footer>
+    Flag Bookmarks Chrome Extension · This page is hosted as the required privacy policy URL for Chrome Web Store submission.
+  </footer>
+</div>
+</body>
+</html>
